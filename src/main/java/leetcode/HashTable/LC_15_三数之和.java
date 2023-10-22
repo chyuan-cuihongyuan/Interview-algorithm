@@ -136,8 +136,12 @@ public class LC_15_三数之和 {
                 } else {
                     result.add(Arrays.asList(nums[i], nums[left], nums[right]));
                     // 去重逻辑应该放在找到一个三元组之后，对b 和 c去重
-                    while (right > left && nums[right] == nums[right - 1]) right--;
-                    while (right > left && nums[left] == nums[left + 1]) left++;
+                    while (right > left && nums[right] == nums[right - 1]) {
+                        right--;
+                    }
+                    while (right > left && nums[left] == nums[left + 1]) {
+                        left++;
+                    }
 
                     right--;
                     left++;
