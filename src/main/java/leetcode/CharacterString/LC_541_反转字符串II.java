@@ -31,13 +31,13 @@ public class LC_541_反转字符串II {
         String s = "sdhioasdhioashjdashdoiasdnasodhasilkdfjmsdkljas";
         int k = 4;
 
-        System.out.println(new LC_541_反转字符串II().reverseStr(s, k).toString());
+        System.out.println(new LC_541_反转字符串II().reverseStr(s, k));
         System.out.println("-----------------------------");
-        System.out.println(new LC_541_反转字符串II().reverseStr1(s, k).toString());
+        System.out.println(new LC_541_反转字符串II().reverseStr1(s, k));
         System.out.println("-----------------------------");
-        System.out.println(new LC_541_反转字符串II().reverseStr2(s, k).toString());
+        System.out.println(new LC_541_反转字符串II().reverseStr2(s, k));
         System.out.println("-----------------------------");
-        System.out.println(new LC_541_反转字符串II().reverseStr3(s, k).toString());
+        System.out.println(new LC_541_反转字符串II().reverseStr3(s, k));
         System.out.println("-----------------------------");
 
     }
