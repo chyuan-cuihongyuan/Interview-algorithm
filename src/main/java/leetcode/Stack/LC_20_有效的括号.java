@@ -40,7 +40,7 @@ public class LC_20_有效的括号 {
     }
 
     public boolean isValid(String s) {
-        Deque<Character> deque = new LinkedList<>();
+         Deque<Character> deque = new LinkedList<>();
         char ch;
         for (int i = 0; i < s.length(); i++) {
             ch = s.charAt(i);
